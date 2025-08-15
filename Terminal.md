@@ -50,6 +50,6 @@ You should see your new file in the list.
 |Command |	Purpose |
 | ------ | ----------- |
 |`touch file.txt` |	Creates an empty file
-|`echo "text" > file.txt`|	Creates a    |file with initial content
+|`echo "text" > file.txt`|	Creates a   file with initial content
 |`nano file.txt` |	Creates/opens file |in nano editor|
 |`ls` |	Lists files in current directory|
