@@ -8,31 +8,31 @@
 ### 2. Navigate to the Desired Directory
 Before creating a file, move into the folder where you want it stored:
 
-`cd path/to/your/folder`
+```cd path/to/your/folder```
 
 
 ***Example***:
 
-`cd Documents/projects`
+```cd Documents/projects```
 
 ### 3. Create the File
 
 There are several commands you can use:
 
-**Option 1**: `touch (empty file)
-touch filename.txt`
+**Option 1**: ```touch (empty file)
+touch filename.txt```
 * Creates an empty file named filename.txt.
 
 * If the file already exists, it updates the file’s last modified date.
 
-**Option 2**: `echo (file with initial text)
-echo "Hello World" > file.txt`
+**Option 2**: ```echo (file with initial text)
+echo "Hello World" > file.txt```
 
 
 * Creates file.txt containing “Hello World”.
 
-**Option 3**: `nano (open in text editor)
-nano filename.txt`
+**Option 3**: ```nano (open in text editor)
+nano filename.txt```
 
 
 * Opens the file in the nano editor so you can start typing.
@@ -43,7 +43,7 @@ nano filename.txt`
 
 Check if the file exists with:
 
-`ls`
+```ls```
 
 
 You should see your new file in the list.
@@ -51,7 +51,7 @@ You should see your new file in the list.
  #### *Quick Reference Table*
 |Command |	Purpose |
 | ------ | ----------- |
-|`touch file.txt` |	Creates an empty file
-|`echo "text" > file.txt`|	Creates a   file with initial content
-|`nano file.txt` |	Creates/opens file |in nano editor|
-|`ls` |	Lists files in current directory|
+|```touch file.txt``` |	Creates an empty file
+|```echo "text" > file.txt```|	Creates a   file with initial content
+|```nano file.txt``` |	Creates/opens file |in nano editor|
+|```ls``` |	Lists files in current directory|
